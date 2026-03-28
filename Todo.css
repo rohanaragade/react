@@ -1,0 +1,92 @@
+
+.todo{
+    width: 100%;
+    height: 100vh;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: rgb(18, 31, 31);
+    padding: 20px 0px;
+}
+
+.todohead{
+    color: white;  
+}
+
+.daytime{
+    margin: 20px 0px 30px 0px;
+    color: white;
+}
+
+.ip{
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    padding: 5px;
+    outline: none;
+}
+
+.todobtn{
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    background-color: rgb(6, 114, 157);
+    padding: 5px;
+    color: white;
+}
+
+.task{
+    margin-top: 20px;
+    min-width: 20%;
+    /* background-color: red; */
+    
+}
+
+.taskitem{
+    width: 100%;
+    color: black;
+    margin-top: 10px;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.taskitem span{
+    margin-right: 20px;
+}
+
+.taskitem button{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: transparent;
+    
+}
+
+.check{
+    font-size: 30px; 
+    background-color: green;
+    border-radius: 15px;
+}
+
+.trash{
+    font-size: 30px; 
+    background-color: red;
+    border-radius: 15px;
+    color: whitesmoke;
+}
+
+.todoclear{
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+}
